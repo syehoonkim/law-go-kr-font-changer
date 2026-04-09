@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Law.go.kr Font Changer",
+  "version": "1.0",
+  "description": "국가법령정보센터의 글꼴을 맑은 고딕 및 Noto Sans로 강제 변경합니다.",
+  "content_scripts": [
+    {
+      "matches": ["*://law.go.kr/*", "*://*.law.go.kr/*"],
+      "css": ["style.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
