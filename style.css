@@ -9,7 +9,9 @@
 .tabNav *,
 #lsHstListDiv *,
 .tree_content *,
-.ins * {
+.ins,
+#joHstLayer *,
+#viewLinkDiv * {
   font-family:
     "맑은 고딕", "Malgun Gothic", "Noto Sans KR", sans-serif !important;
 }
